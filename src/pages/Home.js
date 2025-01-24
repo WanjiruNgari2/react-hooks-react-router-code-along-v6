@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import UserCard from "../components/UserCard";
+import Navbar from "../components/navbar";
 
 function Home() {
   const [users, setUsers] = useState([])
